@@ -1,5 +1,7 @@
 # MODULE 02
 
+- O Conteudo apresentado nesse repositorio foi feito por mim no inicio dos estudos, mas só estou postando agora, caso queira algum conteudo feito por mim mais recentemente [acesse este link](https://github.com/viniciussoares982/Launchbase-Module05)
+
 # Pagina de Cursos ¹DESAFIO 
 
 Uma pagina principal apresentando informações sobre um certo tema, em seguida de uma pagina apresentando varios Cards, aonde cada um abre um modal com um link do Youtube.
