@@ -10,9 +10,9 @@ Layout e Estilização feitos por mim.
 # Screenshots INSTRUCTORS
 - Pagina Inicial
 ![Alt text](https://i.ibb.co/f09X4v3/Captura-de-Tela-13.png "Pag Inicial")
-- Apresentação dos Cards
+- Apresentação dos Cards utilizando Grid no CSS.
 ![Alt text](https://i.ibb.co/bP9cCTY/Captura-de-Tela-14.png "Cards")
-- Modal ao clicar nos cards
+- Modal abrindo um iframe contendo um video do Youtube ao clicar nos cards
 ![Alt text](https://i.ibb.co/k3LNN89/Captura-de-Tela-15.png "Modal")
 
 
