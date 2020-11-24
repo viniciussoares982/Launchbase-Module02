@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(1, 3, 22);
+    color: rgba(128, 128, 128, 0.623);
+}
+
+.links {
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgb(108, 79, 187);
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 28px;
+    color: green;
+    transition: 800ms;
+}
+
+.links a:hover {
+    color: greenyellow;
+    transition: color 700ms;
+    text-decoration: underline;
+    
+}
+
+#info, #sociallinks {
+    padding: 32px;
+    text-align: center;
+}
+
+#info img {
+    border-radius: 50%;
+    border: 2px solid rgb(80, 46, 175);
+    margin-bottom: 32px;
+}
+
+#info h1 {
+    color: rgb(89, 53, 190);
+    font-size: 32px;
+    line-height: 42px;
+}
+
+#info p {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 14px;
+}
+
+#info ul {
+    font-size: 24px;
+    display: inline-block;
+    color: green;
+    cursor: default;
+}
+
+#info li {
+    transition: 700ms;
+}
+
+#info li:hover {
+    color: greenyellow;
+    font-size: 28px;
+    transition: 700ms;
+}
+
+#sociallinks a {
+    border: 1px solid green;
+    color: green;
+    border-radius: 12px;
+    text-decoration: none;
+    margin: 0 16px;
+    padding: 3px;
+    transition: 700ms;
+}
+
+#sociallinks a:hover {
+    font-size: 18px;
+    color: rgb(108, 79, 187);
+    border: 1px solid rgb(108, 79, 187);
+    transition: 700ms ease-in;
+}
+
+
+/* ==== conteudos ====*/
+
+.painel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 30px 20vh;
+}
+
+.curso {
+    background-color: rgb(4, 10, 65);
+    width: 500px;
+    height: 600px;
+    border: 3px solid rgb(10, 10, 100);
+    border-radius: 50px;
+    position: relative;
+    margin: 0 auto;
+    transition: 700ms;
+    cursor: pointer;
+}
+
+.curso:hover {
+    border: 10px solid rgb(108, 79, 187);
+    transition: 700ms;
+}
+
+.curso-img img {
+    position: absolute;
+    top: 20vh;
+
+}
+
+#launchbase img {
+    left: 10vh;
+}
+
+#gostack img {
+    left: 13vh;
+    width: 250px;
+}
+
+#starter img {
+    right: 15vh;
+    width: 200px;
+}
+
+.price h1 {
+    position: absolute;
+    top: 50vh;
+    left: 23vh;
+    border: 5px solid rgb(10, 10, 100);
+    border-radius: 15px;
+    padding: 5px;
+    transition: 500ms;
+}
+
+.price h1:hover {
+    border-color: rgb(108, 79, 187);
+    transition: 500ms;
+}
+
+/*=== MODAL ===*/
+
+.modal-overlay {
+    background-color: rgba(8, 2, 2, 0.753);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal-overlay.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: red;
+    cursor: pointer;
+    padding-top: 3px;
+}
+
+.close-modal:hover {
+    border: 1px solid red;
+    border-radius: 30px;
+    transition: 700ms;
+}
+
+.modal-page iframe {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
